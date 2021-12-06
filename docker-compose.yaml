@@ -1,0 +1,36 @@
+version: '3.4'
+services:
+  ymbme-pastexam-postgres:
+    image: library/postgres:9.6
+    container_name: ymbme-pastexam-postgres
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_DB: nycu_pastexam
+      POSTGRES_USER: nycu
+      POSTGRES_PASSWORD: vEKdZzEvGEqJDT99
+      restart: unless-stopped
+  
+  ymbme-pastexma-api:
+    build: ./
+    container_name: ymbme-pastexma-api
+    command: >
+      /bin/sh -c '
+      while ! nc -z ymbme-pastexam-postgres 5432;
+      do
+        echo "waiting for database ...";
+        sleep 3;
+      done;
+      echo "db is ready!";
+      npm install pg;
+      pm2-runtime start ecosystem.config.js;
+      '
+    volumes :
+      - ./ecosystem.config.js:/usr/src/app/ecosystem.config.js
+    #ports:
+    #  - 3000:3000
+    depends_on:
+      - ymbme-pastexam-postgres
+    tty : true
+    restart: on-failure:3
+    stdin_open : true

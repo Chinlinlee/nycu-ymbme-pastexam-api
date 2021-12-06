@@ -1,0 +1,1220 @@
+[
+    {
+        "name": "生物科技產業概論",
+        "sem": "1",
+        "gradeType": 5,
+        "teachers": "吳俊忠、李易展、高甫仁、林峻立、蔡美文、游忠煌、曾湘文、李超煌、董奕鍾、阮大同、周民元、黃琬婷、曹昱、陳錦昇、林青松"
+    },
+    {
+        "name": "醫學工程專題討論(博)",
+        "sem": "1",
+        "gradeType": 5,
+        "teachers": "林峻立、李卓穎、江惠華、楊世偉、詹家泰、蔡瑞瑩、劉澤英、陳右穎、駱俊良、鍾次文、李泉、江明彰、羅俊民、劉承揚、賴穎暉"
+    },
+    {
+        "name": "醫學工程專題討論(碩)",
+        "sem": "1",
+        "gradeType": 5,
+        "teachers": "林峻立、李卓穎、江惠華、楊世偉、詹家泰、蔡瑞瑩、劉澤英、陳右穎、駱俊良、鍾次文、李泉、江明彰、羅俊民、劉承揚、賴穎暉"
+    },
+    {
+        "name": "醫學工程概論",
+        "sem": "1",
+        "gradeType": 5,
+        "teachers": "林峻立、朱唯勤、江惠華、楊世偉、詹家泰、蔡瑞瑩、劉澤英、陳右穎、駱俊良、鍾次文、李泉、江明彰、羅俊民、劉承揚、賴穎暉"
+    },
+    {
+        "name": "人體動作分析",
+        "sem": "1",
+        "gradeType": 5,
+        "teachers": "楊世偉"
+    },
+    {
+        "name": "工程數學",
+        "sem": "1",
+        "gradeType": 5,
+        "teachers": "江明彰"
+    },
+    {
+        "name": "心肺生理學",
+        "sem": "1",
+        "gradeType": 5,
+        "teachers": "陳高揚"
+    },
+    {
+        "name": "生理學",
+        "sem": "1",
+        "gradeType": 5,
+        "teachers": "蕭慶華"
+    },
+    {
+        "name": "生醫材料表面技術",
+        "sem": "1",
+        "gradeType": 5,
+        "teachers": "鍾次文"
+    },
+    {
+        "name": "材料科學導論",
+        "sem": "1",
+        "gradeType": 5,
+        "teachers": "劉澤英"
+    },
+    {
+        "name": "神經工程",
+        "sem": "1",
+        "gradeType": 5,
+        "teachers": "陳右穎"
+    },
+    {
+        "name": "骨科及復健生物力學",
+        "sem": "1",
+        "gradeType": 5,
+        "teachers": "楊世偉"
+    },
+    {
+        "name": "高分子合成",
+        "sem": "1",
+        "gradeType": 5,
+        "teachers": "駱俊良"
+    },
+    {
+        "name": "高等材料力學",
+        "sem": "1",
+        "gradeType": 5,
+        "teachers": "李泉"
+    },
+    {
+        "name": "創新事業的開創與經營",
+        "sem": "1",
+        "gradeType": 5,
+        "teachers": "楊世偉"
+    },
+    {
+        "name": "創新醫療器材研發",
+        "sem": "1",
+        "gradeType": 5,
+        "teachers": "楊世偉"
+    },
+    {
+        "name": "量測及儀表",
+        "sem": "1",
+        "gradeType": 5,
+        "teachers": "羅俊民"
+    },
+    {
+        "name": "幹細胞生物學特論",
+        "sem": "1",
+        "gradeType": 5,
+        "teachers": "李光申、何慧君、楊智宇"
+    },
+    {
+        "name": "磁振造影",
+        "sem": "1",
+        "gradeType": 5,
+        "teachers": "江明彰"
+    },
+    {
+        "name": "臨床工程實務(一)",
+        "sem": "1",
+        "gradeType": 5,
+        "teachers": "劉承揚、林重榮、李淑貞、林伯剛、丁乾坤、蘇宇平、張誌剛、彭成康、李思慧、張珽詠、黃偉銘、鄭瑞駿"
+    },
+    {
+        "name": "醫療儀器設計",
+        "sem": "1",
+        "gradeType": 5,
+        "teachers": "賴穎暉"
+    },
+    {
+        "name": "醫療器材法規與實務",
+        "sem": "1",
+        "gradeType": 5,
+        "teachers": "楊世偉"
+    },
+    {
+        "name": "超音波影像與生醫應用",
+        "sem": "1",
+        "gradeType": 5,
+        "teachers": "江惠華"
+    },
+    {
+        "name": "無線區域及個人網路技術與應用",
+        "sem": "1",
+        "gradeType": 5,
+        "teachers": "詹家泰"
+    },
+    {
+        "name": "細胞生物學與研究技術",
+        "sem": "1",
+        "gradeType": 5,
+        "teachers": "張智銘"
+    },
+    {
+        "name": "界面現象",
+        "sem": "1",
+        "gradeType": 5,
+        "teachers": "蔡瑞瑩"
+    },
+    {
+        "name": "高階醫療植入物法規與實務操作",
+        "sem": "1",
+        "gradeType": 5,
+        "teachers": "林峻立"
+    },
+    {
+        "name": "生醫光學",
+        "sem": "1",
+        "gradeType": 5,
+        "teachers": "劉承揚"
+    },
+    {
+        "name": "院級專題討論",
+        "sem": "1",
+        "gradeType": 5,
+        "teachers": "吳俊忠、陳志成、王瑞瑤、楊世偉、陳浩夫"
+    },
+    {
+        "name": "微積分(一)",
+        "sem": "1",
+        "gradeType": 1,
+        "teachers": ""
+    },
+    {
+        "name": "化學原理實驗",
+        "sem": "1",
+        "gradeType": 1,
+        "teachers": "鄔蜀威、林雅雄、楊雅茹、鄭閔魁"
+    },
+    {
+        "name": "普通生物學",
+        "sem": "1",
+        "gradeType": 1,
+        "teachers": "林崇智、羅清維、陳燕彰"
+    },
+    {
+        "name": "化學原理(一)",
+        "sem": "1",
+        "gradeType": 1,
+        "teachers": ""
+    },
+    {
+        "name": "計算機概論",
+        "sem": "1",
+        "gradeType": 1,
+        "teachers": "詹家泰"
+    },
+    {
+        "name": "醫學工程導論",
+        "sem": "1",
+        "gradeType": 1,
+        "teachers": "林峻立、江惠華、楊世偉、詹家泰、蔡瑞瑩、劉澤英、陳右穎、李泉、江明彰、劉承揚、賴穎暉"
+    },
+    {
+        "name": "普通物理學(一)",
+        "sem": "1",
+        "gradeType": 1,
+        "teachers": "李泉"
+    },
+    {
+        "name": "體育",
+        "sem": "1",
+        "gradeType": 1,
+        "teachers": "藍于青"
+    },
+    {
+        "name": "生涯發展與學習(一上)",
+        "sem": "1",
+        "gradeType": 1,
+        "teachers": "羅俊民"
+    },
+    {
+        "name": "生涯發展與學習(一上)",
+        "sem": "1",
+        "gradeType": 1,
+        "teachers": "江明彰"
+    },
+    {
+        "name": "生涯發展與學習(一上)",
+        "sem": "1",
+        "gradeType": 1,
+        "teachers": "李泉"
+    },
+    {
+        "name": "解剖學",
+        "sem": "1",
+        "gradeType": 2,
+        "teachers": "蔡佩君、侯珮珊、王懷詩、陳天華、傅毓秀、鄭瓊娟、吳建春、李學德、王先逸"
+    },
+    {
+        "name": "解剖學實驗",
+        "sem": "1",
+        "gradeType": 2,
+        "teachers": "陳天華、侯珮珊、王懷詩、傅毓秀、鄭瓊娟、吳建春、李學德、蔡佩君、王先逸"
+    },
+    {
+        "name": "工程力學",
+        "sem": "1",
+        "gradeType": 2,
+        "teachers": "李泉"
+    },
+    {
+        "name": "工程數學(一)",
+        "sem": "1",
+        "gradeType": 2,
+        "teachers": "江明彰"
+    },
+    {
+        "name": "資料結構",
+        "sem": "1",
+        "gradeType": 2,
+        "teachers": "詹家泰"
+    },
+    {
+        "name": "儀器分析",
+        "sem": "1",
+        "gradeType": 2,
+        "teachers": "駱俊良"
+    },
+    {
+        "name": "生涯發展與學習(二上)",
+        "sem": "1",
+        "gradeType": 2,
+        "teachers": "詹家泰"
+    },
+    {
+        "name": "生涯發展與學習(二上)",
+        "sem": "1",
+        "gradeType": 2,
+        "teachers": "駱俊良"
+    },
+    {
+        "name": "生涯發展與學習(二上)",
+        "sem": "1",
+        "gradeType": 2,
+        "teachers": "劉承揚"
+    },
+    {
+        "name": "生理學",
+        "sem": "1",
+        "gradeType": 3,
+        "teachers": "李怡萱、吳鈺琳、唐德成、高毓儒、黃娟娟、阮琪昌、林惠菁、張原翊"
+    },
+    {
+        "name": "生理學實驗",
+        "sem": "1",
+        "gradeType": 3,
+        "teachers": "張原翊、吳鈺琳、唐德成、高毓儒、楊靜修、阮琪昌、李怡萱、林惠菁、吳莉玲"
+    },
+    {
+        "name": "生醫材料導論",
+        "sem": "1",
+        "gradeType": 3,
+        "teachers": "劉澤英"
+    },
+    {
+        "name": "專題研究(一)",
+        "sem": "1",
+        "gradeType": 3,
+        "teachers": "林峻立、李卓穎、江惠華、楊世偉、詹家泰、蔡瑞瑩、劉澤英、陳右穎、駱俊良、鍾次文、江明彰、羅俊民、賴穎暉"
+    },
+    {
+        "name": "量測及儀表",
+        "sem": "1",
+        "gradeType": 3,
+        "teachers": "羅俊民"
+    },
+    {
+        "name": "電子學(一)",
+        "sem": "1",
+        "gradeType": 3,
+        "teachers": "賴穎暉"
+    },
+    {
+        "name": "電子學實驗(一)",
+        "sem": "1",
+        "gradeType": 3,
+        "teachers": "賴穎暉"
+    },
+    {
+        "name": "電腦輔助設計與實作",
+        "sem": "1",
+        "gradeType": 3,
+        "teachers": "林峻立"
+    },
+    {
+        "name": "機械設計",
+        "sem": "1",
+        "gradeType": 3,
+        "teachers": "劉承揚"
+    },
+    {
+        "name": "導師時間",
+        "sem": "1",
+        "gradeType": 3,
+        "teachers": ""
+    },
+    {
+        "name": "心肺生理學",
+        "sem": "1",
+        "gradeType": 4,
+        "teachers": "陳高揚"
+    },
+    {
+        "name": "生醫材料表面技術",
+        "sem": "1",
+        "gradeType": 4,
+        "teachers": "鍾次文"
+    },
+    {
+        "name": "高等材料力學",
+        "sem": "1",
+        "gradeType": 4,
+        "teachers": "李泉"
+    },
+    {
+        "name": "專題研究(三)",
+        "sem": "1",
+        "gradeType": 4,
+        "teachers": "林峻立、李卓穎、江惠華、詹家泰、蔡瑞瑩、陳右穎、駱俊良、鍾次文、羅俊民、賴穎暉"
+    },
+    {
+        "name": "生醫光學",
+        "sem": "1",
+        "gradeType": 4,
+        "teachers": "劉承揚"
+    },
+    {
+        "name": "神經工程",
+        "sem": "1",
+        "gradeType": 4,
+        "teachers": "陳右穎"
+    },
+    {
+        "name": "細胞生物學與研究技術",
+        "sem": "1",
+        "gradeType": 4,
+        "teachers": "張智銘"
+    },
+    {
+        "name": "界面現象",
+        "sem": "1",
+        "gradeType": 4,
+        "teachers": "蔡瑞瑩"
+    },
+    {
+        "name": "導師時間",
+        "sem": "1",
+        "gradeType": 4,
+        "teachers": ""
+    },
+    {
+        "name": "生化概論",
+        "sem": "2",
+        "gradeType": 5,
+        "teachers": "郭津岑、林雅雄、朱孝益、陳威儀、張崇德"
+    },
+    {
+        "name": "醫學工程專題討論(甲乙丙)博",
+        "sem": "2",
+        "gradeType": 5,
+        "teachers": "林峻立、李卓穎、朱唯勤、江惠華、楊世偉、詹家泰、蔡瑞瑩、劉澤英、陳右穎、駱俊良、鍾次文、李泉、林宥欣、江明彰、羅俊民、劉承揚、賴穎暉"
+    },
+    {
+        "name": "醫學工程專題討論（甲乙丙）碩士",
+        "sem": "2",
+        "gradeType": 5,
+        "teachers": "林峻立、李卓穎、朱唯勤、江惠華、楊世偉、詹家泰、蔡瑞瑩、劉澤英、陳右穎、駱俊良、鍾次文、李泉、林宥欣、江明彰、羅俊民、劉承揚、賴穎暉"
+    },
+    {
+        "name": "生物輸送",
+        "sem": "2",
+        "gradeType": 5,
+        "teachers": "蔡瑞瑩"
+    },
+    {
+        "name": "有限元素法(一)",
+        "sem": "2",
+        "gradeType": 5,
+        "teachers": "陳振昇"
+    },
+    {
+        "name": "奈米生醫工程",
+        "sem": "2",
+        "gradeType": 5,
+        "teachers": "劉澤英"
+    },
+    {
+        "name": "組織工程與再生醫學",
+        "sem": "2",
+        "gradeType": 5,
+        "teachers": "趙遠宏"
+    },
+    {
+        "name": "復健輔具設計與製造",
+        "sem": "2",
+        "gradeType": 5,
+        "teachers": "楊世偉"
+    },
+    {
+        "name": "普及運算",
+        "sem": "2",
+        "gradeType": 5,
+        "teachers": "詹家泰"
+    },
+    {
+        "name": "腫瘤醫學的工程與科技應用",
+        "sem": "2",
+        "gradeType": 5,
+        "teachers": "李卓穎"
+    },
+    {
+        "name": "醫學雷射",
+        "sem": "2",
+        "gradeType": 5,
+        "teachers": "劉承揚"
+    },
+    {
+        "name": "電腦輔助工程分析",
+        "sem": "2",
+        "gradeType": 5,
+        "teachers": "林峻立"
+    },
+    {
+        "name": "數值分析",
+        "sem": "2",
+        "gradeType": 5,
+        "teachers": "鄔蜀威"
+    },
+    {
+        "name": "醫療器材上市法規實作",
+        "sem": "2",
+        "gradeType": 5,
+        "teachers": "楊世偉"
+    },
+    {
+        "name": "生醫材料",
+        "sem": "2",
+        "gradeType": 5,
+        "teachers": "鍾次文"
+    },
+    {
+        "name": "智慧財產權",
+        "sem": "2",
+        "gradeType": 5,
+        "teachers": "王世仁"
+    },
+    {
+        "name": "生醫光電",
+        "sem": "2",
+        "gradeType": 5,
+        "teachers": "江惠華"
+    },
+    {
+        "name": "電腦輔助工程於醫療植入物設計分析",
+        "sem": "2",
+        "gradeType": 5,
+        "teachers": "林峻立"
+    },
+    {
+        "name": "再生生物醫學特論",
+        "sem": "2",
+        "gradeType": 5,
+        "teachers": "李光申、何慧君、楊慕華、黃柏勳、楊智宇、陳志強、翁仕明、李怡慧、郭紘志、鄭明德、周秀慧"
+    },
+    {
+        "name": "院級專題討論",
+        "sem": "2",
+        "gradeType": 5,
+        "teachers": "吳俊忠、陳志成、王瑞瑤、楊世偉、郭文娟、陳浩夫"
+    },
+    {
+        "name": "微積分(二)",
+        "sem": "2",
+        "gradeType": 1,
+        "teachers": "謝忠村"
+    },
+    {
+        "name": "有機化學",
+        "sem": "2",
+        "gradeType": 1,
+        "teachers": "駱俊良"
+    },
+    {
+        "name": "有機化學實驗",
+        "sem": "2",
+        "gradeType": 1,
+        "teachers": "駱俊良"
+    },
+    {
+        "name": "普通物理學實驗",
+        "sem": "2",
+        "gradeType": 1,
+        "teachers": "李卓穎、陳星宇"
+    },
+    {
+        "name": "程式語言",
+        "sem": "2",
+        "gradeType": 1,
+        "teachers": "陳右穎"
+    },
+    {
+        "name": "普通物理學(二)",
+        "sem": "2",
+        "gradeType": 1,
+        "teachers": "李泉"
+    },
+    {
+        "name": "體育",
+        "sem": "2",
+        "gradeType": 1,
+        "teachers": "藍于青"
+    },
+    {
+        "name": "生涯發展與學習(一下)",
+        "sem": "2",
+        "gradeType": 1,
+        "teachers": "李泉"
+    },
+    {
+        "name": "生涯發展與學習(一下)",
+        "sem": "2",
+        "gradeType": 1,
+        "teachers": "羅俊民"
+    },
+    {
+        "name": "生涯發展與學習(一下)",
+        "sem": "2",
+        "gradeType": 1,
+        "teachers": "江明彰"
+    },
+    {
+        "name": "生化概論",
+        "sem": "2",
+        "gradeType": 2,
+        "teachers": "郭津岑、林雅雄、朱孝益、陳威儀、張崇德"
+    },
+    {
+        "name": "工程數學(二)",
+        "sem": "2",
+        "gradeType": 2,
+        "teachers": "江明彰"
+    },
+    {
+        "name": "材料科學導論",
+        "sem": "2",
+        "gradeType": 2,
+        "teachers": "劉澤英"
+    },
+    {
+        "name": "科技論文導讀",
+        "sem": "2",
+        "gradeType": 2,
+        "teachers": "羅俊民"
+    },
+    {
+        "name": "電路學",
+        "sem": "2",
+        "gradeType": 2,
+        "teachers": "陳右穎"
+    },
+    {
+        "name": "電路學實驗",
+        "sem": "2",
+        "gradeType": 2,
+        "teachers": "陳右穎"
+    },
+    {
+        "name": "材料力學",
+        "sem": "2",
+        "gradeType": 2,
+        "teachers": "林峻立"
+    },
+    {
+        "name": "機動學",
+        "sem": "2",
+        "gradeType": 2,
+        "teachers": "李泉"
+    },
+    {
+        "name": "反應動力學",
+        "sem": "2",
+        "gradeType": 2,
+        "teachers": "蔡瑞瑩"
+    },
+    {
+        "name": "生涯發展與學習(二下)",
+        "sem": "2",
+        "gradeType": 2,
+        "teachers": "詹家泰"
+    },
+    {
+        "name": "生涯發展與學習(二下)",
+        "sem": "2",
+        "gradeType": 2,
+        "teachers": "駱俊良"
+    },
+    {
+        "name": "生涯發展與學習(二下)",
+        "sem": "2",
+        "gradeType": 2,
+        "teachers": "劉承揚"
+    },
+    {
+        "name": "應用英文",
+        "sem": "2",
+        "gradeType": 3,
+        "teachers": "程曉杰"
+    },
+    {
+        "name": "生物統計學",
+        "sem": "2",
+        "gradeType": 3,
+        "teachers": "陳瓊梅"
+    },
+    {
+        "name": "臨床工程實務(一)",
+        "sem": "2",
+        "gradeType": 3,
+        "teachers": "賴穎暉、林重榮、李淑貞、林伯剛、蘇宇平、張誌剛、彭成康、李思慧、張珽詠、王維庭、鄭瑞駿"
+    },
+    {
+        "name": "訊號與系統",
+        "sem": "2",
+        "gradeType": 3,
+        "teachers": "朱唯勤"
+    },
+    {
+        "name": "高分子科學",
+        "sem": "2",
+        "gradeType": 3,
+        "teachers": "駱俊良"
+    },
+    {
+        "name": "專題研究(二)",
+        "sem": "2",
+        "gradeType": 3,
+        "teachers": "林峻立、江惠華、詹家泰、陳右穎、駱俊良、鍾次文、李泉、江明彰、羅俊民、劉承揚、賴穎暉"
+    },
+    {
+        "name": "量測與儀表實驗",
+        "sem": "2",
+        "gradeType": 3,
+        "teachers": "劉承揚"
+    },
+    {
+        "name": "電子學(二)",
+        "sem": "2",
+        "gradeType": 3,
+        "teachers": "賴穎暉"
+    },
+    {
+        "name": "電子學實驗(二)",
+        "sem": "2",
+        "gradeType": 3,
+        "teachers": "賴穎暉"
+    },
+    {
+        "name": "臨床醫學概論",
+        "sem": "2",
+        "gradeType": 3,
+        "teachers": "江明彰"
+    },
+    {
+        "name": "輸送現象",
+        "sem": "2",
+        "gradeType": 3,
+        "teachers": "鍾次文"
+    },
+    {
+        "name": "導師時間",
+        "sem": "2",
+        "gradeType": 3,
+        "teachers": ""
+    },
+    {
+        "name": "專題研究(四)",
+        "sem": "2",
+        "gradeType": 4,
+        "teachers": "林峻立、朱唯勤、詹家泰、蔡瑞瑩、陳右穎、駱俊良、鍾次文、江明彰、羅俊民、賴穎暉"
+    },
+    {
+        "name": "組織工程與再生醫學",
+        "sem": "2",
+        "gradeType": 4,
+        "teachers": "趙遠宏"
+    },
+    {
+        "name": "嵌入式系統設計概論與實作",
+        "sem": "2",
+        "gradeType": 4,
+        "teachers": ""
+    },
+    {
+        "name": "腫瘤醫學的工程與科技應用",
+        "sem": "2",
+        "gradeType": 4,
+        "teachers": "李卓穎"
+    },
+    {
+        "name": "電腦輔助工程分析",
+        "sem": "2",
+        "gradeType": 4,
+        "teachers": "林峻立"
+    },
+    {
+        "name": "數值分析",
+        "sem": "2",
+        "gradeType": 4,
+        "teachers": "鄔蜀威"
+    },
+    {
+        "name": "醫療器材上市法規實作",
+        "sem": "2",
+        "gradeType": 4,
+        "teachers": "楊世偉"
+    },
+    {
+        "name": "醫學雷射",
+        "sem": "2",
+        "gradeType": 4,
+        "teachers": "劉承揚"
+    },
+    {
+        "name": "智慧財產權",
+        "sem": "2",
+        "gradeType": 4,
+        "teachers": "王世仁"
+    },
+    {
+        "name": "電腦輔助工程於醫療植入物設計分析",
+        "sem": "2",
+        "gradeType": 4,
+        "teachers": "林峻立"
+    },
+    {
+        "name": "導師時間",
+        "sem": "2",
+        "gradeType": 4,
+        "teachers": ""
+    },
+    {
+        "name": "生物科技產業概論",
+        "sem": "1",
+        "gradeType": 5,
+        "teachers": "吳俊忠、李淑貞、李俊信、曾湘文、王信二、蕭文澤、李超煌、董奕鍾、阮大同、曾國維、周民元"
+    },
+    {
+        "name": "醫學工程專題討論(博)",
+        "sem": "1",
+        "gradeType": 5,
+        "teachers": "林峻立、李卓穎、朱唯勤、江惠華、楊世偉、詹家泰、蔡瑞瑩、劉澤英、陳右穎、駱俊良、鍾次文、李泉、江明彰、羅俊民、劉承揚、賴穎暉"
+    },
+    {
+        "name": "醫學工程專題討論(碩)",
+        "sem": "1",
+        "gradeType": 5,
+        "teachers": "林峻立、李卓穎、朱唯勤、江惠華、楊世偉、詹家泰、蔡瑞瑩、劉澤英、陳右穎、駱俊良、鍾次文、李泉、江明彰、羅俊民、劉承揚、賴穎暉"
+    },
+    {
+        "name": "醫學工程概論",
+        "sem": "1",
+        "gradeType": 5,
+        "teachers": "林峻立、朱唯勤、楊世偉、詹家泰、蔡瑞瑩、劉澤英、陳右穎、駱俊良、鍾次文、李泉、江明彰、羅俊民、劉承揚、賴穎暉"
+    },
+    {
+        "name": "工程數學(一)",
+        "sem": "1",
+        "gradeType": 5,
+        "teachers": "江明彰"
+    },
+    {
+        "name": "臨床工程實務",
+        "sem": "1",
+        "gradeType": 5,
+        "teachers": "江明彰、林重榮、李淑貞、林伯剛、蘇宇平、張誌剛、彭成康、李思慧、張俊欽、林晉宇、黃偉銘、鄭瑞駿"
+    },
+    {
+        "name": "醫療植入物功能性測試與實務操作",
+        "sem": "1",
+        "gradeType": 5,
+        "teachers": "林峻立"
+    },
+    {
+        "name": "生醫材料",
+        "sem": "1",
+        "gradeType": 5,
+        "teachers": "鍾次文"
+    },
+    {
+        "name": "RFID概論",
+        "sem": "1",
+        "gradeType": 5,
+        "teachers": "朱唯勤"
+    },
+    {
+        "name": "醫學影像處理",
+        "sem": "1",
+        "gradeType": 5,
+        "teachers": "朱唯勤"
+    },
+    {
+        "name": "智慧工程於醫療植入物開發應用",
+        "sem": "1",
+        "gradeType": 5,
+        "teachers": "駱俊良、蔡瑞瑩、林峻立、劉承揚、賴穎暉"
+    },
+    {
+        "name": "院級專題討論",
+        "sem": "1",
+        "gradeType": 5,
+        "teachers": "吳俊忠、王瑞瑤、楊世偉、郭文娟、陳浩夫、高瑀絜"
+    },
+    {
+        "name": "微積分(一)",
+        "sem": "1",
+        "gradeType": 1,
+        "teachers": "謝忠村"
+    },
+    {
+        "name": "化學原理(一)",
+        "sem": "1",
+        "gradeType": 1,
+        "teachers": "陳傳霖"
+    },
+    {
+        "name": "醫學工程導論",
+        "sem": "1",
+        "gradeType": 1,
+        "teachers": "林峻立、楊世偉、詹家泰、蔡瑞瑩、劉澤英、陳右穎、李泉、江明彰、劉承揚、賴穎暉"
+    },
+    {
+        "name": "體育",
+        "sem": "1",
+        "gradeType": 1,
+        "teachers": "黃中興"
+    },
+    {
+        "name": "生涯發展與學習(一上)",
+        "sem": "1",
+        "gradeType": 1,
+        "teachers": "詹家泰"
+    },
+    {
+        "name": "生涯發展與學習(一上)",
+        "sem": "1",
+        "gradeType": 1,
+        "teachers": "劉澤英"
+    },
+    {
+        "name": "生涯發展與學習(一上)",
+        "sem": "1",
+        "gradeType": 1,
+        "teachers": "蔡瑞瑩"
+    },
+    {
+        "name": "解剖學",
+        "sem": "1",
+        "gradeType": 2,
+        "teachers": "王懷詩、侯珮珊、陳天華、傅毓秀、葉添順、鄭瓊娟、吳建春、李學德、蔡佩君、王先逸"
+    },
+    {
+        "name": "解剖學實驗",
+        "sem": "1",
+        "gradeType": 2,
+        "teachers": "葉添順、侯珮珊、王懷詩、陳天華、傅毓秀、鄭瓊娟、吳建春、李學德、蔡佩君、王先逸"
+    },
+    {
+        "name": "生涯發展與學習(二上)",
+        "sem": "1",
+        "gradeType": 2,
+        "teachers": "羅俊民"
+    },
+    {
+        "name": "生涯發展與學習(二上)",
+        "sem": "1",
+        "gradeType": 2,
+        "teachers": "江明彰"
+    },
+    {
+        "name": "生涯發展與學習(二上)",
+        "sem": "1",
+        "gradeType": 2,
+        "teachers": "李泉"
+    },
+    {
+        "name": "生理學",
+        "sem": "1",
+        "gradeType": 3,
+        "teachers": "吳鈺琳、唐德成、高毓儒、黃娟娟、阮琪昌、李怡萱、林惠菁、張原翊、吳莉玲"
+    },
+    {
+        "name": "生理學實驗",
+        "sem": "1",
+        "gradeType": 3,
+        "teachers": "吳莉玲、吳鈺琳、唐德成、高毓儒、阮琪昌、李怡萱、林惠菁、張原翊"
+    },
+    {
+        "name": "生物力學",
+        "sem": "1",
+        "gradeType": 3,
+        "teachers": "楊世偉"
+    },
+    {
+        "name": "物理化學",
+        "sem": "1",
+        "gradeType": 3,
+        "teachers": "楊明偉"
+    },
+    {
+        "name": "醫療植入物功能性測試與實務操作",
+        "sem": "1",
+        "gradeType": 4,
+        "teachers": "林峻立"
+    },
+    {
+        "name": "智慧工程於醫療植入物開發應用",
+        "sem": "1",
+        "gradeType": 4,
+        "teachers": "駱俊良、蔡瑞瑩、林峻立、劉承揚、賴穎暉"
+    },
+    {
+        "name": "醫學工程專題討論(甲乙丙)博",
+        "sem": "2",
+        "gradeType": 5,
+        "teachers": "林峻立、李卓穎、朱唯勤、江惠華、楊世偉、詹家泰、蔡瑞瑩、劉澤英、陳右穎、駱俊良、鍾次文、李泉、江明彰、羅俊民、劉承揚、賴穎暉"
+    },
+    {
+        "name": "醫學工程專題討論（甲乙丙）碩士",
+        "sem": "2",
+        "gradeType": 5,
+        "teachers": "林峻立、李卓穎、朱唯勤、江惠華、楊世偉、詹家泰、蔡瑞瑩、劉澤英、陳右穎、駱俊良、鍾次文、李泉、江明彰、羅俊民、劉承揚、賴穎暉"
+    },
+    {
+        "name": "RFID應用",
+        "sem": "2",
+        "gradeType": 5,
+        "teachers": "朱唯勤"
+    },
+    {
+        "name": "院級專題討論",
+        "sem": "2",
+        "gradeType": 5,
+        "teachers": "吳俊忠、王瑞瑤、楊世偉、費伍岡、高瑀絜"
+    },
+    {
+        "name": "工程統計",
+        "sem": "2",
+        "gradeType": 5,
+        "teachers": "李泉"
+    },
+    {
+        "name": "生物化學概論",
+        "sem": "2",
+        "gradeType": 5,
+        "teachers": "郭津岑、林雅雄、陳威儀、張崇德"
+    },
+    {
+        "name": "再生生物醫學特論",
+        "sem": "2",
+        "gradeType": 5,
+        "teachers": "李光申、何慧君、楊慕華、黃柏勳、楊智宇、陳志強、賴峻毅、翁仕明、李怡慧、郭紘志、鄭明德、周秀慧"
+    },
+    {
+        "name": "有限元素法",
+        "sem": "2",
+        "gradeType": 5,
+        "teachers": "陳振昇"
+    },
+    {
+        "name": "體育",
+        "sem": "2",
+        "gradeType": 1,
+        "teachers": "陳厚諭"
+    },
+    {
+        "name": "生涯發展與學習(一下)",
+        "sem": "2",
+        "gradeType": 1,
+        "teachers": "劉澤英"
+    },
+    {
+        "name": "生涯發展與學習(一下)",
+        "sem": "2",
+        "gradeType": 1,
+        "teachers": "蔡瑞瑩"
+    },
+    {
+        "name": "生涯發展與學習(一下)",
+        "sem": "2",
+        "gradeType": 1,
+        "teachers": "詹家泰"
+    },
+    {
+        "name": "生涯發展與學習(二下)",
+        "sem": "2",
+        "gradeType": 2,
+        "teachers": "羅俊民"
+    },
+    {
+        "name": "生涯發展與學習(二下)",
+        "sem": "2",
+        "gradeType": 2,
+        "teachers": "江明彰"
+    },
+    {
+        "name": "生涯發展與學習(二下)",
+        "sem": "2",
+        "gradeType": 2,
+        "teachers": "李泉"
+    },
+    {
+        "name": "生物化學概論",
+        "sem": "2",
+        "gradeType": 2,
+        "teachers": "郭津岑、林雅雄、陳威儀、張崇德"
+    },
+    {
+        "name": "臨床工程實務",
+        "sem": "2",
+        "gradeType": 3,
+        "teachers": "蔡瑞瑩、林重榮、李淑貞、林伯剛、蘇宇平、張誌剛、彭成康、李思慧、張珽詠、王維庭、鄭瑞駿"
+    },
+    {
+        "name": "專題研究(二)",
+        "sem": "2",
+        "gradeType": 3,
+        "teachers": "林峻立、江惠華、詹家泰、蔡瑞瑩、劉澤英、陳右穎、駱俊良、鍾次文、李泉、江明彰、羅俊民、劉承揚、賴穎暉"
+    },
+    {
+        "name": "應用英文",
+        "sem": "2",
+        "gradeType": 3,
+        "teachers": "嚴偉哲"
+    },
+    {
+        "name": "專題研究(四)",
+        "sem": "2",
+        "gradeType": 4,
+        "teachers": "林峻立、朱唯勤、江惠華、詹家泰、陳右穎、駱俊良、鍾次文、李泉、江明彰、羅俊民、劉承揚、賴穎暉"
+    },
+    {
+        "name": "光電工程與生醫應用",
+        "sem": "2",
+        "gradeType": 4,
+        "teachers": "江惠華、劉承揚"
+    },
+    {
+        "name": "嵌入式系統設計概論與實作",
+        "sem": "2",
+        "gradeType": 4,
+        "teachers": "曾煜棋、吳昆儒"
+    },
+    {
+        "name": "醫學工程專題討論(博)",
+        "sem": "1",
+        "gradeType": 5,
+        "teachers": "林峻立、李卓穎、朱唯勤、江惠華、楊世偉、詹家泰、蔡瑞瑩、劉澤英、陳右穎、駱俊良、鍾次文、李泉、劉承揚、江明彰、羅俊民、賴穎暉"
+    },
+    {
+        "name": "醫學工程專題討論(碩)",
+        "sem": "1",
+        "gradeType": 5,
+        "teachers": "林峻立、李卓穎、朱唯勤、江惠華、楊世偉、詹家泰、蔡瑞瑩、劉澤英、陳右穎、駱俊良、鍾次文、李泉、劉承揚、江明彰、羅俊民、賴穎暉"
+    },
+    {
+        "name": "醫學工程概論",
+        "sem": "1",
+        "gradeType": 5,
+        "teachers": "林峻立、朱唯勤、江惠華、楊世偉、詹家泰、蔡瑞瑩、劉澤英、陳右穎、駱俊良、鍾次文、李泉、劉承揚、江明彰、羅俊民、賴穎暉"
+    },
+    {
+        "name": "臨床工程實務",
+        "sem": "1",
+        "gradeType": 5,
+        "teachers": "朱唯勤、林重榮、李淑貞、林伯剛、彭成康、蘇宇平、張誌剛、李思慧、林晉宇、黃偉銘、吳思賢、王建順、張俊欽、鄭瑞駿"
+    },
+    {
+        "name": "醫學工程導論",
+        "sem": "1",
+        "gradeType": 1,
+        "teachers": "林峻立、江惠華、楊世偉、詹家泰、蔡瑞瑩、劉澤英、陳右穎、李泉、劉承揚、江明彰、賴穎暉"
+    },
+    {
+        "name": "生涯發展與學習(一上)",
+        "sem": "1",
+        "gradeType": 1,
+        "teachers": "江惠華"
+    },
+    {
+        "name": "生涯發展與學習(一上)",
+        "sem": "1",
+        "gradeType": 1,
+        "teachers": "陳右穎"
+    },
+    {
+        "name": "生涯發展與學習(一上)",
+        "sem": "1",
+        "gradeType": 1,
+        "teachers": "賴穎暉"
+    },
+    {
+        "name": "化學原理實驗",
+        "sem": "1",
+        "gradeType": 1,
+        "teachers": "鄔蜀威、林雅雄、鄭閔魁"
+    },
+    {
+        "name": "普通生物學",
+        "sem": "1",
+        "gradeType": 1,
+        "teachers": "林崇智、呂璦竹、吳如蕙、羅清維、陳燕彰"
+    },
+    {
+        "name": "生涯發展與學習(二上)",
+        "sem": "1",
+        "gradeType": 2,
+        "teachers": "蔡瑞瑩"
+    },
+    {
+        "name": "生涯發展與學習(二上)",
+        "sem": "1",
+        "gradeType": 2,
+        "teachers": "劉澤英"
+    },
+    {
+        "name": "解剖學",
+        "sem": "1",
+        "gradeType": 2,
+        "teachers": "吳建春、王懷詩、陳天華、傅毓秀、葉添順、鄭瓊娟、李學德、蔡佩君、郭曉縈、侯珮珊、王先逸"
+    },
+    {
+        "name": "解剖學實驗",
+        "sem": "1",
+        "gradeType": 2,
+        "teachers": "蔡佩君、王懷詩、陳天華、傅毓秀、葉添順、鄭瓊娟、吳建春、李學德、郭曉縈、侯珮珊、王先逸"
+    },
+    {
+        "name": "專題研究(一)",
+        "sem": "1",
+        "gradeType": 3,
+        "teachers": "林峻立、李卓穎、江惠華、楊世偉、詹家泰、蔡瑞瑩、劉澤英、陳右穎、駱俊良、鍾次文、江明彰、羅俊民"
+    },
+    {
+        "name": "智慧醫材機械設計",
+        "sem": "1",
+        "gradeType": 3,
+        "teachers": "劉承揚"
+    },
+    {
+        "name": "生理學",
+        "sem": "1",
+        "gradeType": 3,
+        "teachers": "李怡萱、吳鈺琳、高毓儒、黃娟娟、阮琪昌、林惠菁、張原翊、吳莉玲、唐德成"
+    },
+    {
+        "name": "生理學實驗",
+        "sem": "1",
+        "gradeType": 3,
+        "teachers": "黃娟娟、吳鈺琳、高毓儒、阮琪昌、李怡萱、林惠菁、張原翊、吳莉玲、唐德成"
+    }
+]
