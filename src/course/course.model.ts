@@ -7,7 +7,8 @@ interface ICourseCreation extends Optional<ICourse, 'courseId'> {};
 
 const tableOptions: TableOptions = {
     timestamps: false,
-    modelName: "Course"
+    modelName: "course",
+    tableName: "course"
 };
 @Table(tableOptions)
 export class Course extends Model<ICourse, ICourseCreation> {

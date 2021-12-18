@@ -25,13 +25,16 @@ export class CourseController {
             teachers: {
                 [Op.like] : `%${teachers}%`
             }
-        })
+        });
         const course = await this.courseService.findAll({
             where : {
                 [Op.and] : [
                     ...findOptions
                 ]
-            }
+            } ,
+            order : [
+                ['name', 'asc']
+            ]
         });
         return res.status(HttpStatus.OK).json(course);
     }
