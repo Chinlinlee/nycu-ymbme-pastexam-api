@@ -15,31 +15,35 @@ export const databaseProviders = [
     {
         provide: SEQUELIZE,
         useFactory : async ()=> {
-            const sequelize = new Sequelize(config.SQL);
-            sequelize.addModels([Course, Teacher, UploadedData]);
-            if (config.initSQL) {
-                await sequelize.sync({ force : true});
-            } else {
-                await sequelize.sync();
+            try {
+                const sequelize = new Sequelize(config.SQL);
+                sequelize.addModels([Course, Teacher, UploadedData]);
+                if (config.initSQL) {
+                    await sequelize.sync({ force : true});
+                } else {
+                    await sequelize.sync();
+                }
+                if (config.initSQLData) {
+                    await createCourseData(sequelize);
+                    await createTeacherData(sequelize);
+                }
+                return sequelize;
+            } catch(e) {
+                Logger.error(e);
+                process.exit(1);
             }
-            if (config.initSQLData) {
-                Logger.log("do create");
-                await createCourseData(sequelize);
-                await createTeacherData(sequelize);
-            }
-            return sequelize;
+            
         }
     }
 ]
 
 
 async function createTeacherData (sequelize: Sequelize) {
-    await sequelize.models["Teacher"].truncate();
     for(let teacher of TeacherData) {
         let teacherObj  = {name: teacher}
         let teacherCreateDto = new TeacherCreateDto(teacherObj);
         Logger.log(`create teacher data ${JSON.stringify(teacherCreateDto)}`);
-        await sequelize.models["Teacher"].findOrCreate({
+        await sequelize.models["teacher"].findOrCreate({
             where: {
                 name: teacher
             },
@@ -49,12 +53,11 @@ async function createTeacherData (sequelize: Sequelize) {
 }
 
 async function createCourseData (sequelize: Sequelize) {
-    await sequelize.models["Course"].truncate();
     for (let key in CourseData) {
         let item = CourseData[key];
         let course = new CourseCreateDto(item);
         Logger.log(`create data ${key} ${JSON.stringify(course)}`);
-        await sequelize.models["Course"].findOrCreate({
+        await sequelize.models["course"].findOrCreate({
             where : {
                 [Op.and] : [
                     { name: item.name } , 

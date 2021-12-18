@@ -8,7 +8,8 @@ interface ITeacherCreation extends Optional<ITeacher, 'teacherId'> {};
 
 const tableOptions: TableOptions = {
     timestamps: false,
-    modelName: "Teacher"
+    modelName: "teacher",
+    tableName: "teacher"
 };
 @Table(tableOptions)
 export class Teacher extends Model<ITeacherCreation, ITeacher> {

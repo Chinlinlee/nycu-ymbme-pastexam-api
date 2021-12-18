@@ -5,3 +5,8 @@ export interface INYCUToken {
     scope: string;
     token_type: string;
 }
+
+export interface INYCUUser {
+    username: string;
+    email: string;
+}

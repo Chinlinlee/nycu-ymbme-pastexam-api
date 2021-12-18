@@ -18,6 +18,7 @@ async function bootstrap() {
   expressInstance.use(express.urlencoded({ extended: false }));
   let myStore = new sequelizeStore({
     db: sequelize,
+    tableName: "sessions"
   });
   expressInstance.use(
     session({

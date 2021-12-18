@@ -1,4 +1,4 @@
-import { INYCUToken } from "./interfaces/IToken";
+import { INYCUToken, INYCUUser } from "./interfaces/IToken";
 
 export class NYCUTokenDto implements INYCUToken {
     access_token: string;
@@ -14,5 +14,13 @@ export class NYCUTokenDto implements INYCUToken {
         return {
             access_token: this.access_token
         }
+    }
+}
+
+export class NYCUUser implements INYCUUser{
+    username: string;
+    email: string;
+    constructor(obj: object = {}) {
+        Object.assign(this, obj);
     }
 }

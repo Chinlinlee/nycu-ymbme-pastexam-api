@@ -1,4 +1,4 @@
-import { Body, Controller, Get, Post, Req, Res } from '@nestjs/common';
+import { Body, Controller, Delete, Get, HttpException, HttpStatus, Logger, Param, Post, Req, Res } from '@nestjs/common';
 import { Request, Response } from 'express';
 import { NYCUTokenDto } from './token.model';
 import * as _ from 'lodash';
@@ -7,6 +7,7 @@ import { map } from 'rxjs/operators';
 
 @Controller('token')
 export class TokenController {
+    myLogger : Logger = new Logger(TokenController.name);
     constructor (
         private tokenService : TokenService
     ) {
@@ -21,15 +22,61 @@ export class TokenController {
                     return res.data;
                 })
             );
-            console.log(profile);
+            
             return res.status(200).send(userNYCUToken);
         }
         return res.status(401).send();
     }
 
+    @Get('/check')
+    async getCheckTokenStatus(@Req() req: Request, @Res() res: Response) {
+        let userNYCUToken: NYCUTokenDto = _.get(req , "session.nycuToken" , false);
+        if (!userNYCUToken) {
+            return res.status(HttpStatus.UNAUTHORIZED).json({
+                statusCode: HttpStatus.UNAUTHORIZED,
+                message: [
+                    "unauthorized"
+                ],
+                error: "unauthorized"
+            });
+        }
+        let profile = await this.tokenService.getProfile(userNYCUToken.access_token).pipe(
+            map((res)=> {
+                return res.data;
+            })
+        );
+        profile.subscribe({
+            next: (data)=> {
+                this.myLogger.log(data);
+                return res.status(200).send(data);
+            },
+            error: (err) => {
+                this.myLogger.error(err);
+                return res.status(HttpStatus.UNAUTHORIZED).json({
+                    statusCode: HttpStatus.UNAUTHORIZED,
+                    message: [
+                        "unauthorized"
+                    ],
+                    error: "unauthorized"
+                });
+            }
+        });
+    }
+
     @Post()
     postToken(@Req() req: Request ,@Body() body: NYCUTokenDto, @Res() res: Response) {
-        req.session["nycuToken"] = body.toJson();
+        req.session["nycuToken"] = body;
         res.status(200).send();
+    }
+
+    @Delete('/logout')
+    postLogout(@Req() req: Request , @Res() res: Response) {
+        req.session.destroy((err)=> {
+            if (err) {
+                res.status(HttpStatus.INTERNAL_SERVER_ERROR).send(err);
+            } else {
+                res.status(HttpStatus.OK).send();
+            }
+        });
     }
 }
