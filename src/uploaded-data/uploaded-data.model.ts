@@ -1,4 +1,4 @@
-import { Column,DataType,TableOptions,Model, Table, ForeignKey, BelongsTo } from 'sequelize-typescript';
+import { Column,DataType,TableOptions,Model, Table, ForeignKey, BelongsTo, Default } from 'sequelize-typescript';
 import { Optional } from 'sequelize/types';
 import { Course } from 'src/course/course.model';
 import { IsString, IsNotEmpty, IsNumberString } from 'class-validator';
@@ -119,6 +119,15 @@ export class UploadedDataGetDto {
         return value.split(/[\/\\]/gim).pop();
     })
     filename: string;
+
+    @Expose()
+    @Transform(({ value })=> {
+        if (value == "undefined") {
+            value = "";
+        }
+        return value;
+    })
+    description: string;
 
     constructor(obj: Object= {}) {
         Object.assign(this, obj);
