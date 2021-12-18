@@ -11,9 +11,9 @@ services:
       POSTGRES_PASSWORD: vEKdZzEvGEqJDT99
       restart: unless-stopped
   
-  ymbme-pastexma-api:
+  ymbme-pastexam-api:
     build: ./
-    container_name: ymbme-pastexma-api
+    container_name: ymbme-pastexam-api
     command: >
       /bin/sh -c '
       while ! nc -z ymbme-pastexam-postgres 5432;
