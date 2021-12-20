@@ -115,7 +115,6 @@ export class UploadedDataGetDto {
 
     @Expose()
     @Transform(({ value })=> {
-        console.debug(value.split(/\/\\/).pop());
         return value.split(/[\/\\]/gim).pop();
     })
     filename: string;

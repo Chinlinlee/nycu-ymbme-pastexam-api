@@ -36,9 +36,12 @@ async function bootstrap() {
   app.useGlobalPipes(new ValidationPipe());
   app.enableCors({
     origin: [
-      "http://localhost:8100"
+      "http://localhost:8100",
+      "capacitor://localhost",
+      "http://localhost"
     ],
-    credentials: true
+    credentials: true,
+    exposedHeaders : ['content-disposition']
   });
   await app.listen(3000);
 }

@@ -126,7 +126,7 @@ export class UploadedDataController {
             });
         }
         let filename = file.originalname;
-        let relativeStoreDestinationDirectory = path.join("/nycuPastExamFiles" , body.uploader);
+        let relativeStoreDestinationDirectory = path.join("/nycuPastExamFiles"  , body.uploader, uuid());
         
         let fileStoreDestinationDirectory = path.join(config.ENV.fileStorePath , relativeStoreDestinationDirectory);
         mkdirp.sync(fileStoreDestinationDirectory);
@@ -177,8 +177,11 @@ export class UploadedDataController {
         if(user.username != stuNum) {
             throw new HttpException("What are you fucking doing" , HttpStatus.FORBIDDEN);
         }
-        let userUploadedData = await this.uploadedService.delete(uploadedDataId);
-        if (userUploadedData) return res.status(HttpStatus.OK).send();
+        let uploadedData =  await this.uploadedService.findById(uploadedDataId);
+        let fullFilename = path.join(config.ENV.fileStorePath , uploadedData.filename);
+        fs.unlink(fullFilename , ()=> {});
+        let deleteStatus = await this.uploadedService.delete(uploadedDataId);
+        if (deleteStatus) return res.status(HttpStatus.OK).send();
         return res.status(HttpStatus.NOT_FOUND).send();
     }
 
